@@ -1,0 +1,9 @@
+# Never commit user data, secrets, exported backups or local environments
+.env
+.env.*
+*.secret
+*.token
+*backup*.json
+*export*.json
+__pycache__/
+.DS_Store
